@@ -1,0 +1,76 @@
+@media screen and (max-width: 768px) {
+  #ust-rpnsb-navbar {
+    display: none;
+  }
+  #alt-rpnsb-navbar {
+    display: none;
+  }
+  #nav-responsive {
+    display: block;
+  }
+  .duyurular {
+    border-left: none !important;
+    border-right: none !important;
+  }
+  .icerik-baslik {
+    border-left: none !important;
+    border-right: none !important;
+  }
+  .rd-top-left {
+    border-radius: 7px 7px 0px 0px;
+  }
+  #slider {
+    padding: 0px;
+    padding-bottom: 18px !important;
+  }
+  .carousel-inner {
+    border-radius: 0px;
+  }
+  .carousel-inner .carousel-item {
+    height: 275px;
+  }
+  .carousel-inner .carousel-item img {
+    margin: auto auto;
+    height: 275px;
+  }
+  .carousel-inner .carousel-item .carousel-caption {
+    bottom: 0;
+  }
+  .carousel-indicators {
+    display: none;
+  }
+  .ft-bottom-info p {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .nav-ust-sol .row .col-md-10 {
+    padding-left: 103px;
+  }
+  #menu-arka-plan {
+    height: 278px;
+  }
+  #menu .container .row {
+    margin-top: -304px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #menu-arka-plan {
+    height: 242px;
+  }
+  .nav-ust-sol .row .col-md-10 {
+    padding-left: 103px;
+  }
+  #menu .container .row {
+    margin-top: -273px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #nav-responsive {
+    display: none;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

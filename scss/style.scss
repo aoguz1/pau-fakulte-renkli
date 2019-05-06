@@ -1,0 +1,1281 @@
+   // DEĞİŞKENLER
+            $semibold: 600;
+            $regular:400;
+            $semilight:300;
+            $light:100;
+
+
+    // Renkler:
+       $uni-logo-mavi:#004684;
+       $uni-logo-acikMavi:#007CC2;
+       $gri-yazi:#424242;
+       $list-style-acikMavi:#369EB7;
+       $menu-cercece:#707070;
+   
+   // GLOBAL  
+   *{
+       list-style: none;
+   } 
+    
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: $regular;
+    color: #424242;
+    
+}
+.ortala{
+    margin: auto;
+    text-align: center;
+}
+// NAVBAR
+
+
+    // üst logolu navbar
+.nav-padding{
+    padding-left: 7%;
+    padding-right: 3%;
+}
+
+.nav-ust{
+    
+   // padding: 1rem 0;
+    padding-bottom: 1rem;
+}
+
+#ust-rpnsb-navbar{
+   background-color: #343434;
+   padding-bottom: 21px;
+   background-image: url("/imgs/navbar/83ae83f5.png");
+   
+ 
+   
+  
+}
+.sticky-top{
+    top: 17px !important;
+}
+
+
+
+
+.nav-ust-sol{
+    float: left;
+}
+
+.nav-ust-sol{
+
+    .row{
+        .col-md-1
+        {
+            .fakulte-resim{
+                
+                box-shadow: 1px 1px 15px #ffffff;
+                box-shadow: 2px 2px 6px 6px rgba(255, 255, 255, 0.29);
+                background-color: #fff;
+                display: inline-block;
+                padding-bottom: 4px;
+                border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+
+
+
+                img{
+                    margin: 0px 10px;
+                }
+            }
+        }
+
+        .col-md-10
+        {
+            padding-left: 83px;
+            display: flex;
+            align-items: center;
+
+            .nav-yazi{
+                
+                float: left;
+                
+                
+                .nav-uni-isim{
+                    font-size: 1.9rem;
+                    color: black;
+                    font-weight: $semibold;
+                    
+                }
+                .nav-fakulte-isim{
+                    font-size: 1.65rem;
+                   
+                    color: $uni-logo-mavi;
+                }
+
+            }
+            
+           
+        }
+
+    
+    
+}
+}
+.fakulte-logo{
+    width: 105px;
+    height: 110px !important;
+    height: auto;
+    float: left;
+}
+
+
+.nav-ust-sag{
+    margin: 0;
+    .ust-bilgi{
+        overflow: auto;
+        padding: 10px 0px; 
+        
+        a{
+            box-sizing: content-box;            
+            margin-left: 10px;
+            font-size: 1.4rem;
+            color: black;
+            overflow: auto;
+            transition: padding 300ms;
+
+            i{
+                font-size: 2.3rem;
+                
+            }
+
+           span{
+               font-size: 1.4rem;
+               
+           }
+            
+        }
+        a:hover{
+            box-sizing: content-box;
+            background-color:$uni-logo-acikMavi;
+            color:#fff;
+            text-decoration: none;
+            padding: 0px 20px;
+            border-radius: 10px;
+
+            i:hover{
+              color: #fff;  
+            }
+
+
+            span:hover{
+                color: #fff;
+            }
+        }
+        
+    }
+ 
+
+ }
+
+.nav-ust-sag{
+    float: right;
+    a{
+        float: right;;
+        span{
+            
+            font-size: 1.2rem;
+            color: black;
+        }
+    }
+}
+    // alt logolu navbar
+   
+
+    .cerceve{
+        box-shadow: 3px 3px 6px 3px rgb(184, 183, 183); 
+                                                                                                
+        
+    }
+   
+   // yeni navbar
+.navbar{
+    position: absolute !important;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+
+   .navbar-nav{
+  
+
+
+    li{
+        padding: 5px 0px;
+        font-size: 15px;
+        font-weight: 600;
+        color:$uni-logo-mavi;
+      
+      
+           
+  
+           a{
+               display: block;
+              color: #424242;
+           }
+  
+          a:hover{
+              text-decoration: none;
+          
+  
+          }
+    }
+  
+  }
+  
+  
+   
+  .denee{
+       box-shadow: 3px 3px 6px 3px #b8b7b7;
+       border-radius: 8px;
+       padding: 0px 30px !important;
+      display: flex !important;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      background-color: $uni-logo-mavi;
+  }
+  
+
+  .navbar-nav{
+
+   
+  
+  .nav-item{
+  
+  
+     
+  
+      >a{
+          
+          color: #fff !important;
+          font-size: 15px;
+          
+           transition: 0.27s ease;                   
+           border-bottom: 4px solid $uni-logo-mavi;
+  
+  
+  
+           &:hover{
+              text-decoration: none;                   
+              border-bottom: 4px solid #fff;                                   
+             
+           }
+      }
+  
+  
+     
+  }
+}
+  
+  .dropdown-item{
+  
+     
+  
+      &:hover{
+          color: $gri-yazi !important;
+      }
+  }
+  
+  .dropdown-menu{
+      li{
+          padding-left: 8px;
+          padding-right:8px; 
+          color: #424242;
+          transition: background-color 350ms;
+          
+          &:hover{
+              background-color: #cecece !important;
+            
+          }
+          a{
+              
+              
+              font-size: 14px;
+              color: $gri-yazi;
+  
+              &:hover{
+                  color:$gri-yazi !important;
+              }
+             
+          }
+      }
+  }
+  
+  .dropdown-menu{
+      .dropdown-item:hover{
+          a{
+              color: $gri-yazi;
+          }
+  
+  
+        
+      }
+  }
+  
+  // RESPONSİVE style //
+  
+  
+  
+  
+  .responsive-navbar{
+      display: none;
+      background-color: #052d50;
+      height: 50px;
+      .container
+      {
+          .row{
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              padding: 0px 10px;
+              line-height: 50px;
+  
+              .nav-fakulte-isim{
+                  font-weight: 500;
+                  font-size: 1.5rem;
+                  color: #fff;
+              }
+          }
+      }
+  }
+  
+  .menu-rpnbs-icon{
+      color: #fff;
+      &:hover{
+          color: #fff;
+          text-decoration: none;
+      }
+  }
+  
+  
+  .nav-uni-logo{
+      z-index: 150;
+      background-image: url("/imgs/navbar/pauLogo24.png");
+      background-repeat: no-repeat;
+      background-color: #fff;
+      background-position-x: center;
+      background-position-y: center;
+      height: 34px;
+      width: 34px;
+      color: #424242;
+      border-radius: 17px;
+  }
+  
+  
+  #navbar-alt-menu{
+    background-color: #fff;
+    }
+    
+    .alt-navbar{
+        background-color: #fff;
+       
+    }
+
+
+ 
+
+
+ 
+
+
+
+// SLİDER
+
+#slider{
+  
+     padding: 18px 0px;
+     margin-bottom: 20px;
+}
+.carousel-inner{
+    box-shadow: 5px 8px 10px 0 rgba(0, 0, 0, 0.16);
+    border-radius:5px; 
+    
+    .carousel-item{
+       
+        height: 474.73px;
+        width: 100%;
+        background: rgb(0,0,0);
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 28%);
+      
+        background-position: bottom;
+        background-repeat: repeat-x;
+        
+
+        img{
+            z-index: -5;
+            position: inherit;
+            height: 100%;
+            width: 100%;
+            margin: auto auto;
+            max-height: 474.74px;
+        
+        }
+
+
+        .carousel-caption{
+            .container{
+                a{
+                    h4{
+                       
+                        text-shadow: 2px 2px rgba(0,0,0,0.35);
+                        color:#fff;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+//MENU
+#menu-arka-plan{
+    background-color: $uni-logo-mavi;
+    height: 170px;
+    background-image: url("/imgs/header/random-grey-variations.png");
+    
+}
+
+#menu {
+    padding: 15px 0px;
+    
+    .container
+    {
+        box-shadow: 0px 0px 10px 5px rgb(61,61,61);
+        background-color: $uni-logo-acikMavi;
+        
+
+
+        .row{
+            margin-top: -196px;
+       
+            .col-md-2{
+                max-width: 14.666667%;
+            }
+            .col-xs-4{
+                max-width: 22.666667%;
+            }
+
+
+            .animButton{
+                transition: all 0.3s;
+                overflow: hidden;
+            }
+
+            .animButton::before{
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 1;
+                background-color: rgba(255,255,255,0.70);
+                -webkit-transition: all 0.3s;
+                -moz-transition: all 0.3s;
+                -o-transition: all 0.3s;
+                transition: all 0.3s;
+                -webkit-transform: translate(13%,-190%) rotate(30deg);
+                transform: translate(13%,-190%) rotate(30deg);
+                -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+                transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+            }
+            .animButton::after{
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 1;
+                background-color: rgba(255, 255, 255, 0.45);
+                -webkit-transition: all 0.3s;
+                -moz-transition: all 0.3s;
+                -o-transition: all 0.3s;
+                transition: all 0.3s;
+                -webkit-transform: translate(-13%,-190%) rotate(-30deg);
+                transform: translate(-13%,-190%) rotate(-30deg);
+                -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+                transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+            }
+            .animButton::before{
+                -webkit-transition-delay: 0.2s;   //Safari 
+                transition-delay: 0.2s;
+            }
+            .animButton:hover::before, .animButton:hover::after{
+                -webkit-transform: translate(0,0);
+                transform: translate(0,0);
+            }
+            
+
+           
+
+
+
+
+
+        }
+    }
+}
+
+
+
+
+
+
+.menu-ortala{
+    display: flex;
+    justify-content: center;
+}
+.menu-cerceve{
+    border: 1.5px solid #fff;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 7px;
+    transition: box-shadow 450ms;
+}
+
+.menu-cerceve:hover{
+
+    a{
+        z-index: 100;
+
+
+        i{
+            color: #424242;
+        }
+        p{
+            color: #424242;
+        }
+       
+    }
+
+}
+
+
+    .menu-ortala{
+        .menu-cerceve{
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+
+
+
+
+.menu-cerceve:hover{
+    box-shadow: 1px 1px 15px #ddd;
+}
+
+.menu-cerceve{
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    i{
+        font-size: 23px;       
+        display: block;
+        text-align:center;
+        color: #fff;
+    }
+}
+
+.menu-cerceve p{
+    
+    font-size: 1.1rem;
+    justify-content: center;
+    text-align: center;
+    margin:auto;
+    position: relative;
+    top: 8px;
+    padding-bottom: 10px;    
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+// İÇERİK :
+
+#icerik{
+    margin: 20px 30px;
+}
+
+
+
+.etkinlik-baslik-border{
+    border-right: 1px solid #7070708c;
+    border-bottom: 1px solid #7070708c;
+    //height: 500px;  // BURAYI YAPTIKTAN SONRA DEĞİŞTİR.
+    height: 45px;
+    border-top-left-radius: 7px;
+}
+
+.duyurular-baslik-border{
+    border-bottom: 1px solid #7070708c;
+    border-right: 1px solid #7070708c;
+    height: 45px;
+}
+.haberler-baslik-border{
+border-bottom: 1px solid #7070708c;
+height: 45px;
+border-top-right-radius: 7px;
+
+}
+
+.icerik-cerceve{  
+    border: 2px solid $uni-logo-mavi;
+    border-radius: 7px;
+    height: auto;
+    
+    
+}
+
+
+
+.container{
+    .row{
+        .col-md-3,.col-md-6{
+            padding: 0;
+
+
+            .icerik-baslik{         
+                height: 45px;
+                background-color: #f5f5f5;
+                                
+                i{
+                    margin-left: 10px;
+                    margin-right: 5px;
+                 
+                    
+                }
+                .nav-log{
+                    font-size: 2em;
+                    color: $gri-yazi;
+                }
+
+            }
+            
+        }    
+    }
+}
+
+
+.icerik-baslik{
+    //border-bottom: 1px solid #7070708c;
+ 
+    
+
+    span{
+        font-size: 14px;
+        font-weight: $semibold;
+        line-height: 45px;
+    }
+}
+
+.icerik-button:hover{
+    color:#fff;
+    background-color: #f5f5f5;
+    text-decoration: none;
+    box-shadow:1px 1px 8px $gri-yazi;
+    
+    span{
+        color:#000;
+        text-decoration: none;
+    }
+}
+
+.bright-none{
+    border-right: none;
+}
+
+
+
+
+
+.icerik-button{
+    display: block;
+    width: 90%;
+    border: 1px solid #7070708c;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 5px 0px;
+    text-align: justify;
+    margin-bottom: 10px;
+    transition:  box-shadow 300ms , background-color 150ms;
+    align-content: center;
+    margin: 10px auto;
+    
+
+    span{
+        text-decoration: none;
+        font-size: 1.2rem;
+        padding-left: 5%;
+        font-weight: $regular;
+        color: #424242;
+    }
+        
+
+
+    
+   
+
+}
+
+    // etkinlikler
+
+.etkinlikler{
+    //border-right: 1px solid #7070708c;
+    height: auto;
+    clear: both;
+    overflow: hidden;
+
+    ul{
+        padding: 0;
+
+        .etkinlik-birim{
+            padding-top: 10px;
+            overflow: auto;        
+            .renk{
+                margin-left: 10px;
+                width: 7px;
+                height: 59px;
+                float: left;
+                background-color: #369EB7;
+                overflow: auto;
+        
+            }
+        }
+        li{
+            overflow: hidden;
+            
+           .tarih{
+
+               position: relative;
+               padding-left: 5px;
+               float: left;
+               font-size: 20px;
+               font-weight: $semibold;
+               text-transform: uppercase;
+               text-align: center;
+
+                &::before{
+                    content: "19'";
+                    font-size: 31px;
+                    position: absolute;
+                    top:10px;
+                    left: 17px;
+                    color: #004684;
+                    margin: auto auto;
+                    opacity: 0.32;
+                    
+                    
+                }
+
+               .tarih-gun{
+                margin: 0;
+               }               
+           }
+
+           .aciklama-icerik{     
+               overflow: auto;      
+                padding-left: 10px;
+                text-align: center;
+                
+            .aciklama{
+                color: $gri-yazi;
+                font-weight: $semibold;
+                font-size: 1.3rem;
+                overflow-wrap: break-word;
+            }
+           
+            span{
+                display: block;
+                padding-top: 5px;
+                font-size: 1.1rem;
+                overflow-wrap: break-word;
+            }
+          }   
+        }
+    }
+}
+
+.rd-top-left{
+    border-top-left-radius: 7px;
+}
+
+//duyurular
+
+
+.col-md-6{
+    .icerik-baslik{
+       // border-right: 1px solid #7070708c;
+      //  border-left: 1px solid #7070708c;
+
+    }
+    .icerik-bolum{
+        .duyurular{
+            overflow: hidden;
+        //    border-right: 1px solid #7070708c;
+        //    border-left: 1px solid #7070708c;
+            height: auto;
+
+            ul{
+                padding: 0;
+
+                li{
+                    padding-top: 10px;
+                    margin-left: 10px;
+
+                    .duyuru-simge{
+                        width: 10px;
+                        height: 10px;
+                        border-radius: 50%;
+                        background-color: $uni-logo-mavi;
+                        float: left;
+                        position: relative;
+                        top: 5px;
+                        
+                    }
+
+                    .duyuruContent{  
+
+                    overflow: auto;
+                    padding-left: 10px;
+                        display: block;                 
+
+                    a{
+                        text-decoration-color: #3b3b3b;
+                        color: $gri-yazi;
+                        font-size: 1.35rem;
+                        font-weight: $semibold;                       
+                       
+                    }
+
+                    p{
+                        i{
+                            display: block;
+                            padding-top: 2px;
+
+                        }
+                    }
+                 }
+               }
+            }
+        }
+    }
+}
+
+// haberler
+
+.rd-top-right{
+    border-top-right-radius: 7px;
+}
+
+
+#haberler{
+    .rd-top-right{
+        .row{           
+            margin: 0;
+            .col-8{
+                padding: 0;
+            }
+            .col-4{
+                text-align: center;
+                padding: 0;
+
+                .haber-button{
+                    line-height: 45px;
+
+                    a{
+                     font-size: 12px;  
+                     font-weight: 300;                      
+                     text-decoration: none;
+
+                     i{
+                        
+                     }
+                    }
+
+                }
+            }
+        }
+    }
+
+
+    .icerik-bolum{
+        .haber-item-icerik{
+            padding: 6px;
+            text-align: center;
+
+            a{
+                width: 260px;
+                color: $gri-yazi;
+                text-decoration-color: #3b3b3b;
+                text-align: center;
+
+
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+            
+            .haber-item-yazi{
+
+
+                p{
+                    padding: 5px 10px;
+                    text-align: center;
+                    font-size: 1.3em;
+                    font-weight: $semibold;
+                    
+                    text-decoration-color: #3b3b3b;
+                    
+                }               
+                
+            }
+        } 
+        
+    
+            
+       }
+    }
+}
+
+
+
+// FOOTER
+
+
+#footer{
+        
+        margin-top: 60px;
+        border-top: 5px solid $uni-logo-mavi;
+        background-color: rgba(255, 251, 251, 0.4);
+    
+    #footer-logo{
+       display: flex;
+       justify-content: center;
+       width: 75px;
+       height: 75px;
+       margin: -42px auto 17px;
+           
+    }
+    
+        background-image: url("/imgs/footer/83ae83f5.png");
+
+
+        background-position: center;
+        background-size: 150px 150px;
+        
+        
+        
+ 
+            
+}
+    
+.container{
+    
+    .row{
+        
+        .col-md-3{
+            text-align: left;
+
+            .footer-bolum-baslik{
+                
+                text-transform: uppercase;
+                font-weight: $semibold;
+                font-size: 1.5em;
+                color: $uni-logo-mavi;
+                
+            }
+
+            .footer-alt-item{
+                ul{
+                    padding: 0;
+                    
+                    li{
+                        padding: 4px 0px;
+                        a{
+                            font-size: 1.25em;
+                            color: #212529;
+                        }
+
+                        
+                    }
+                }
+            }
+        }
+        .col-xs-6{
+            max-width: 50%;
+        }
+
+    }
+
+    .ft-line{
+        margin: 30px 0px;
+        border-top: 3px solid #393535;
+        border-radius: 5px;
+    }
+
+    .ft-bottom-info{
+        font-weight: bold;
+        font-size:1.2em;
+        text-align: center;
+        margin: 0;
+        padding-bottom: 8px;
+
+        p{
+            a{
+                text-decoration: none;
+                color:#212529;                
+            }
+            a:hover{
+                opacity: 0.7;
+            }
+        }
+    }
+}
+
+
+
+#footer-icerik{
+    
+        .col-md-3,.col-xs-6{
+            padding: 0px 15px;
+        }
+    
+}
+
+// sosyal medya 
+
+
+#sosyal-medya{
+ 
+    
+    
+       
+        a{
+            display:flex; 
+        justify-content:space-between;
+         align-items:center;
+            margin: auto;
+            text-align:center;
+            font-size: 3.7em;
+            color: $gri-yazi;
+            color: $gri-yazi;
+           transition: 270ms ease;
+        }
+        .icon-fb:hover{
+            text-decoration: none;
+            color:#4267B2;
+        }
+        .icon-insta:hover{
+            text-decoration: none;
+            color:#E901AC;
+        }
+        .icon-tw:hover{
+            text-decoration: none;
+            color: #1DA1F2;
+        }
+        .icon-ytb:hover{
+            text-decoration: none;
+            color:#FF0000;
+        }
+        
+
+}
+
+.fixed.dopen{
+    display: block;
+}
+
+.fixed{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: auto;
+    z-index: 1030;
+    padding: 50px;
+    display: none;
+}
+
+
+
+
+// ALT SAYFA
+
+.container{
+
+
+    .row{
+        
+
+        .col-md-3{
+
+
+            .aciklama-sol-menu{
+               
+               
+                
+            
+
+            .aciklama-b-baslik{
+                border-top-left-radius: 7px;
+                border-top-right-radius: 7px;
+                background-color: #eeeded;
+                
+                line-height: 40px;
+
+                i{
+                    margin: 0px 10px;
+                    font-size: 2rem;
+                }
+                span{
+                    font-size: 1.4rem;
+                    font-weight: 600;
+                }
+
+            }
+
+
+
+            .aciklama-b-icerik{
+               
+                padding-top: 10px;
+                ul{
+                    padding: 0;
+                    padding-left: 10px;
+
+
+                    li{
+                        padding: 8px 0px;
+                        .aciklama-b-butun{
+                            padding-top: 5px;
+                            
+                            i{
+
+                                padding-right: 8px;
+                                font-size: 2rem;
+                                color: $uni-logo-mavi;
+                            }
+
+                            .aciklama-content{
+                                a{
+                                    font-weight: 600;
+                                    font-size: 1.3rem;
+                                    color: $gri-yazi;
+                                }
+                            }
+                            
+
+                        }
+                      
+                    }
+                }
+
+                i{
+                    float: left;
+                }
+            }
+          }
+        }
+
+        .col-md-9{
+
+            .aciklama-icerik-content{
+
+
+
+            }
+
+            .ekli-belgeler{
+                .card{
+                    .card-header{
+                        font-size: 1.6rem;
+                        font-weight: 600;
+                    }
+                    .card-body{
+                        .card-title{
+                            font-weight: 500;
+                            font-size: 1.5rem;
+                        }
+
+                        .card-text{
+                            font-size: 1.4rem;
+                        }
+
+                    }
+                }
+               
+
+            }
+
+
+
+        }
+    }
+
+
+    .alt-sayfa{
+        margin-top: 50px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+    
+
+    
+
+
+
+
+
+
+
