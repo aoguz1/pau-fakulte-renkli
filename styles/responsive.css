@@ -59,5 +59,14 @@
 @media screen and (min-width: 768px) {
   #nav-responsive {
     display: none; } }
+@media screen and (max-width: 768px) {
+  #slider {
+    padding-bottom: 35px !important; }
+
+  #menu-arka-plan {
+    height: 319px; }
+
+  #menu .container .row {
+    margin-top: -361px; } }
 
 /*# sourceMappingURL=responsive.css.map */

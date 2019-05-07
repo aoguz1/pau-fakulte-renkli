@@ -207,7 +207,9 @@ html {
     height: 474.73px;
     width: 100%;
     background: black;
-    background: linear-gradient(0deg, black 0%, rgba(255, 255, 255, 0) 28%);
+    background: black;
+    background: black;
+    background: linear-gradient(0deg, black 0%, rgba(255, 255, 255, 0) 27%);
     background-position: bottom;
     background-repeat: repeat-x; }
     .carousel-inner .carousel-item img {
