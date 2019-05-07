@@ -9,7 +9,7 @@ Error: Invalid CSS after "...solid #7070708c": expected "{", was ";"
 715:     border: 1px solid #7070708c;
 716:     -webkit border:1px solid #7070708c;
 717:     -moz border: 1px solid #7070708c;
-718: 
+718:     -o border:1px solid #7070708c;
 719:     background-color: #fff;
 720:     border-radius: 4px;
 721:     padding: 5px 0px;
@@ -50,4 +50,4 @@ C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"...solid #7070708c\": expected \"{\", was \";\"\A         on line 716 of scss/style.scss\A \A 711: \A 712: .icerik-button{\A 713:     display: block;\A 714:     width: 90%;\A 715:     border: 1px solid #7070708c;\A 716:     -webkit border:1px solid #7070708c;\A 717:     -moz border: 1px solid #7070708c;\A 718: \A 719:     background-color: #fff;\A 720:     border-radius: 4px;\A 721:     padding: 5px 0px;"; }
+  content: "Error: Invalid CSS after \"...solid #7070708c\": expected \"{\", was \";\"\A         on line 716 of scss/style.scss\A \A 711: \A 712: .icerik-button{\A 713:     display: block;\A 714:     width: 90%;\A 715:     border: 1px solid #7070708c;\A 716:     -webkit border:1px solid #7070708c;\A 717:     -moz border: 1px solid #7070708c;\A 718:     -o border:1px solid #7070708c;\A 719:     background-color: #fff;\A 720:     border-radius: 4px;\A 721:     padding: 5px 0px;"; }
