@@ -713,6 +713,9 @@ border-top-right-radius: 7px;
     display: block;
     width: 90%;
     border: 1px solid #7070708c;
+    -webkit border:1px solid #7070708c;
+    -moz border: 1px solid #7070708c;
+
     background-color: #fff;
     border-radius: 4px;
     padding: 5px 0px;

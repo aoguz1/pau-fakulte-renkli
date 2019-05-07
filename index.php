@@ -945,129 +945,129 @@
 
     
     <script>
-    $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    navText: ["<i class='mt-3 fas fa-angle-left' style='font-size:1.5em; padding: 0px 10px' ></i>","<i class='mt-3 fas fa-angle-right' style='font-size:1.5em; padding: 0px 10px'></i>"],
-    dots:false,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:1
-        },
-        1000:{
-            items:1
+        $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        navText: ["<i class='mt-3 fas fa-angle-left' style='font-size:1.5em; padding: 0px 10px' ></i>","<i class='mt-3 fas fa-angle-right' style='font-size:1.5em; padding: 0px 10px'></i>"],
+        dots:false,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
         }
-    }
-})
+    })
+        
+        
+        </script>
+    
+        <script>
+        $(document).ready(function(){
+      $(".owl-carousel").owlCarousel();
+    });
+        
+        
+        </script>
     
     
-    </script>
-
     <script>
-    $(document).ready(function(){
-  $(".owl-carousel").owlCarousel();
-});
+    
+    var width = $(document).width();
+        if (width < 768) {
+          $(".dene").addClass("col-xs-4");
+          $("#carouselExampleIndicators").removeClass("container");
+    
+         // $("#ana-navbar").css("display","none");
+         // $("").css("display","block");
+          
+        }
+    
+       
+    
+            else{
+    
+            $(".dene").removeClass("col-xs-4");
+            $("#carouselExampleIndicators").addClass("container");
+    
+    
+           // $("#ana-navbar").css("display","block");
+         // $("#nav-responsive").css("display","none");
+    
+         
+    
+        }
+    
+    $(window).resize(function() {
+        //do something
+    
+        var width = $(document).width();
+        if (width < 768) {
+          $(".dene").addClass("col-xs-4");
+    
+          $("#carouselExampleIndicators").removeClass("container");
+    
+        //  $("#ana-navbar").css("display","none");
+        //  $("#nav-responsive").css("display","block");
+          
+    
+     
+        }
+    
+       
+    
+            else{
+    
+            $(".dene").removeClass("col-xs-4");
+    
+            $("#carouselExampleIndicators").addClass("container");    
+    
+          //  $("#ana-navbar").css("display","block");
+         // $("#nav-responsive").css("display","none");
+    
+    
+        }
+    });
+    
+    </script>
+    
+    <script>
+        $(document).scroll(function(){
+        $(".fixed").toggleClass("dopen", $(this).scrollTop() > 150);
+    });
+    </script>
+    
+    
+    
+    
+    <script>
+    
+    $(window).ready(function () {
+        $(".haber-ekle").addClass("owl-nav");
+        
+    })
+    
     
     
     </script>
-
-
-<script>
-
-var width = $(document).width();
-    if (width < 768) {
-      $(".dene").addClass("col-xs-4");
-      $("#carouselExampleIndicators").removeClass("container");
-
-     // $("#ana-navbar").css("display","none");
-     // $("").css("display","block");
-      
-    }
-
-   
-
-        else{
-
-        $(".dene").removeClass("col-xs-4");
-        $("#carouselExampleIndicators").addClass("container");
-
-
-       // $("#ana-navbar").css("display","block");
-     // $("#nav-responsive").css("display","none");
-
-     
-
-    }
-
-$(window).resize(function() {
-    //do something
-
-    var width = $(document).width();
-    if (width < 768) {
-      $(".dene").addClass("col-xs-4");
-
-      $("#carouselExampleIndicators").removeClass("container");
-
-    //  $("#ana-navbar").css("display","none");
-    //  $("#nav-responsive").css("display","block");
-      
-
- 
-    }
-
-   
-
-        else{
-
-        $(".dene").removeClass("col-xs-4");
-
-        $("#carouselExampleIndicators").addClass("container");    
-
-      //  $("#ana-navbar").css("display","block");
-     // $("#nav-responsive").css("display","none");
-
-
-    }
-});
-
-</script>
-
-<script>
-    $(document).scroll(function(){
-    $(".fixed").toggleClass("dopen", $(this).scrollTop() > 150);
-});
-</script>
-
-
-
-
-<script>
-
-$(window).ready(function () {
-    $(".haber-ekle").addClass("owl-nav");
+    <script>
+            $(document).ready(function() {
+               $("#nav-mmenu").mmenu({
+                  // options
+               }, {
+                  // configuration
+                  offCanvas: {
+                     pageNodetype: "section"
+                  }
+               });
+            });
+         </script>
     
-})
-
-
-
-</script>
-<script>
-        $(document).ready(function() {
-           $("#nav-mmenu").mmenu({
-              // options
-           }, {
-              // configuration
-              offCanvas: {
-                 pageNodetype: "section"
-              }
-           });
-        });
-     </script>
-
 
 </body>
 </html>
