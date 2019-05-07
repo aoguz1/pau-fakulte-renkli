@@ -322,10 +322,6 @@
 
         </div>
 
-
-
-
-
         </div>
        
         <div class="my-footer">
